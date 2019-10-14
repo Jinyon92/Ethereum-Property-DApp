@@ -27,4 +27,13 @@ contract RealEstate {
         address(uint160(owner)).transfer(msg.value);
         emit LogBuyRealEstate(msg.sender, _id);
     }
+
+    function getBuyerInfo(uint _id) public view returns (address, string memory, uint) {
+        Buyer memory buyer = buyerInfo[_id];
+        return (buyer.buyerAddress, buyer.name, buyer.age);
+    }
+
+    function getAllBuyer() public view returns (address[10] memory) {
+        return buyers;
+    }
 }
