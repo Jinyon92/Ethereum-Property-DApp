@@ -1,0 +1,1 @@
+geth --networkid 4386 --mine --minerthreads 1 --datadir "./" --nodiscover --rpc --rpcport "8545" --rpccorsdomain "*" --nat "any" --rpcapi eth,web3,personal,net --allow-insecure-unlock --password ./password.sec
