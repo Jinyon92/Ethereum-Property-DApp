@@ -13,6 +13,7 @@ App = {
         template.find('.type').text(data[i].type);
         template.find('.area').text(data[i].area);
         template.find('.price').text(data[i].price);
+        template.find('.serial').text(data[i].serial);
 
         list.append(template.html());
       }
@@ -26,7 +27,7 @@ App = {
       App.web3Provider = web3.currentProvider;
       web3 = new Web3(web3.currentProvider);
     } else {
-      App.web3Provider = new web3.providers.HttpProvider('http://localhost:8545');
+      App.web3Provider = new web3.providers.HttpProvider('http://localhost:7545');
       web3 = new Web3(App.web3Provider);
     }
 
@@ -76,14 +77,17 @@ App = {
           let imgType = $('.panel-realEstate').eq(i).find('img').attr('src').substr(7);
 
           switch(imgType){
-            case 'apartment.jpg':
-              $('.panel-realEstate').eq(i).find('img').attr('src', 'images/apartment_sold.jpg')
+            case 'macbook-1.jpg':
+              $('.panel-realEstate').eq(i).find('img').attr('src', 'images/macbook-1X.jpg')
               break;
-            case 'townhouse.jpg':
-              $('.panel-realEstate').eq(i).find('img').attr('src', 'images/townhouse_sold.jpg')
+            case 'macbook-2.jpg':
+              $('.panel-realEstate').eq(i).find('img').attr('src', 'images/macbook-2X.jpg')
               break;
-            case 'house.jpg':
-              $('.panel-realEstate').eq(i).find('img').attr('src', 'images/house_sold.jpg')
+            case 'macbook-3.jpg':
+              $('.panel-realEstate').eq(i).find('img').attr('src', 'images/macbook-3X.jpg')
+              break;
+            case 'macbook-4.jpg':
+              $('.panel-realEstate').eq(i).find('img').attr('src', 'images/macbook-4X.jpg')
               break;
           }
 

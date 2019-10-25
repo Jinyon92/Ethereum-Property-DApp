@@ -2,71 +2,90 @@
   {
     "id": 0,
     "type": "아파트",
-    "picture": "images/apartment.jpg",
+    "picture": "images/macbook-2.jpg",
     "area": "85A/59",
-    "price": 1.23
+    "price": 1.23,
+    "serial": "A2322BADB234324BAB"
   },
   {
     "id": 1,
     "type": "연립주택",
-    "picture": "images/townhouse.jpg",
+    "picture": "images/macbook-3.jpg",
     "area": "115/76",
-    "price": 1.56
+    "price": 1.56,
+    "serial": "FD22BADB234324BAB"
+
   },
   {
     "id": 2,
     "type": "하우스",
-    "picture": "images/house.jpg",
+    "picture": "images/macbook-1.jpg",
     "area": "204/72",
-    "price": 2.74
+    "price": 2.74,
+    "serial": "EGASE2BADB234324BAB"
+
   },
   {
     "id": 3,
     "type": "하우스",
-    "picture": "images/house.jpg",
+    "picture": "images/macbook-1.jpg",
     "area": "693/82",
-    "price": 1.87
+    "price": 1.87,
+    "serial": "DFDSF2BADB234324BAB"
+
   },
   {
     "id": 4,
     "type": "연립주택",
-    "picture": "images/townhouse.jpg",
+    "picture": "images/macbook-3.jpg",
     "area": "46/45",
-    "price": 1.97
+    "price": 1.97,
+    "serial": "CZ2322BADB234324BAB"
+
   },
   {
     "id": 5,
     "type": "아파트",
-    "picture": "images/apartment.jpg",
+    "picture": "images/macbook-2.jpg",
     "area": "113A/84",
-    "price": 1.77
+    "price": 1.77,
+    "serial": "ASD324BADB234324BAB"
+
   },
   {
     "id": 6,
     "type": "아파트",
-    "picture": "images/apartment.jpg",
+    "picture": "images/macbook-2.jpg",
     "area": "145/114",
-    "price": 2.12
+    "price": 2.12,
+    "serial": "124DF2BADB234324BAB"
+
   },
   {
     "id": 7,
     "type": "하우스",
-    "picture": "images/house.jpg",
+    "picture": "images/macbook-1.jpg",
     "area": "430/92",
-    "price": 2.57
+    "price": 2.57,
+    "serial": "WEF32BADB234324BAB"
+
   },
   {
     "id": 8,
     "type": "아파트",
-    "picture": "images/apartment.jpg",
+    "picture": "images/macbook-4.jpg",
     "area": "111B/84",
-    "price": 1.32
+    "price": 1.32,
+    "serial": "SDB222132ASBDA324BAB"
+
   },
   {
     "id": 9,
     "type": "연립주택",
-    "picture": "images/townhouse.jpg",
+    "picture": "images/macbook-3.jpg",
     "area": "75/61",
-    "price": 1.11
+    "price": 1.11,
+    "serial": "SDB22BADB234324BAB"
+
   }
 ]
