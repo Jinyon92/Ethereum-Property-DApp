@@ -3494,12 +3494,12 @@
         }
       },
       "links": {},
-      "address": "0x31F11fD999543367792AA0599dB86e106FCd9635",
-      "transactionHash": "0xee4327fb68261e57c45920dc1b30aec9294a30bd5b78d7caefe517cab9bebc37"
+      "address": "0xf84832d9d187F505f7C8088fB112B4fa2c93D48f",
+      "transactionHash": "0xe9d8c7f99ba651c132470011d256af7d216bf314acfd42028e421d62d18b605d"
     }
   },
   "schemaVersion": "3.0.16",
-  "updatedAt": "2019-10-25T12:55:17.725Z",
+  "updatedAt": "2019-10-26T01:33:40.948Z",
   "devdoc": {
     "methods": {}
   },

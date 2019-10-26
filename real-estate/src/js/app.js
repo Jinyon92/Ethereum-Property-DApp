@@ -14,6 +14,8 @@ App = {
         template.find('.area').text(data[i].area);
         template.find('.price').text(data[i].price);
         template.find('.serial').text(data[i].serial);
+        template.find('.repair').text(data[i].repair);
+
 
         list.append(template.html());
       }
